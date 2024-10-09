@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/10/white-cube-pattern-4k_1602439015.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+}
+
+.login-card {
+  background: white;
+  border-radius: 20px;
+
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  overflow: hidden;
+}
+
+.info-section {
+  width: 65%;
+  padding: 40px 40px 20px 40px;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.img-features {
+  display: flex;
+  gap: 50px;
+}
+
+.img-doc {
+  width: 200px;
+  height: 250px;
+}
+
+.brand h1 {
+  font-size: 35px;
+  color: #333;
+}
+
+.info-section h2 {
+  font-weight: lighter;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.feature-item {
+  display: flex;
+
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.features-cont {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.feat {
+  width: 20%;
+}
+.features-icon-div {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid gray;
+  border-radius: 100%;
+  height: 50px;
+  color: rgb(147, 145, 5);
+}
+.logo-img {
+  width: 200px;
+  margin: auto;
+}
+.text-div {
+  width: 80%;
+}
+.featured-text {
+  color: #1b6aa4;
+  font-weight: lighter;
+}
+.logomain {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.log {
+  text-align: center;
+  font-weight: lighter;
+}
+.log-sub {
+  font-size: small;
+  text-align: center;
+}
+
+.new-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #ff5722;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+.help-section {
+  margin-top: auto;
+  font-size: 16px;
+  color: #666;
+}
+
+.terms {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.login-section {
+  width: 35%;
+  padding: 40px;
+  background: white;
+}
+
+.login-header h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.login-header p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 2px;
+  color: #333;
+  font-size: smaller;
+}
+
+.form-group input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+}
+
+.remember-me input {
+  margin-right: 8px;
+}
+.privacypolicy {
+  font-size: xx-small;
+  color: gray;
+  margin-top: 10px;
+  text-align: center;
+}
+.forgot-password {
+  color: #00bcd4;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0px;
+  background: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #00acc1;
+}
+.img-doc-div {
+  display: flex;
+  align-items: center;
+}
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: small;
+  color: #666;
+}
+
+.signup-link a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    flex-direction: column;
+  }
+  .img-features {
+    display: block;
+    gap: 50px;
+  }
+  .img-doc-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  .info-section,
+  .login-section {
+    width: 100%;
+  }
+  .help-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* --------------- */
